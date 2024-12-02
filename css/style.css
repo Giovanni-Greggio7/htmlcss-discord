@@ -270,6 +270,7 @@ footer {
 }
 
 hr {
+    border: 1px solid #7289DA;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
