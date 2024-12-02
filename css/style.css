@@ -70,9 +70,9 @@ header {
 
 .start {
     background-image: url("../img-3/jumbo.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 530px;
+    height: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -87,14 +87,27 @@ h1 {
     font-size: 40px;
 }
 
-.article1 {
+h2 {
+    color: #23272A;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.article-start {
     color: white;
     text-align: center;
     line-height: 20px;
     font-weight: 400;
     font-size: 15px;
     width: 45%;
+}
 
+.article-body {
+    color: #23272A;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 80%;
 }
 
 .button1-2 {
@@ -129,66 +142,115 @@ h1 {
 }
 
 .chapter1 {
-       background-color: rgb(28, 28, 198);
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 300px;
+       height: 500px;
        gap: 10px;
 }
 
-.direction {
-    width: 30%;
+.contain-ch1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
 }
 
-.image {
+/* .imag1 {
+    height: 40px;
+    width: 40px;
+} */
+
+/* .direction {
+    width: 30%;
+} */
+
+/* .image {
     background-color: var(--figure-color);
     height: 150px;
     width: 15%;
-}
+} */
 
-.article {
+/* .article {
         background-color: green;
         height: 75px;
         margin: 15px;
-}
+} */
 
 .chapter2 {
-    background-color: rgb(149, 149, 253);
+    background-color: #F6F6F6;
+    height: 500px;
+    gap: 10px;
+}
+
+.contain-ch2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    gap: 10px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: column;
 }
 
 .chapter3 {
-    background-color: rgb(0, 115, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
+    height: 500px;
     gap: 10px;
 }
 
+.contain-ch3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+
 .last-chapter {
-    background-color: rgb(0, 251, 255);
+    background-color: #F6F6F6;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 600px;
-    gap: 30px;
+    text-align: center;
+    line-height: 0;
+    height: 900px;
 }
 
-.button3 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    width: 35%;
+.stars {
+    background-image: url("../img-3/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 40%;
 }
+
+.stars p {
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.article-last {
+    color: #23272A;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 60%;
+}
+
+.button-3 {
+    background-color: #7289DA;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+ }
+
 
 footer {
     background-color: #23272A;
@@ -207,9 +269,14 @@ footer {
     width: 80%;
 }
 
+hr {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
 .useful-links1{
-    background-color: rgb(0, 217, 255);
-    text-align: center;
     height: 300px;
     width: 20%;
 }
@@ -223,12 +290,17 @@ footer {
 .ending {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.text-h1 {
+    color: #6983D6;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .img-foot {
-    background-color: var(--figure-color);
-    height: 30px;
-    width: 80%;
     margin-top: 10px;
 }
 
@@ -243,4 +315,13 @@ footer {
     height: 15px;
     width: 90%;
     margin-top: 15px;
+}
+
+.foot-link button {
+    background-color: #7289DA;
+    font-size: 12px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
 }
