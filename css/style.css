@@ -1,0 +1,214 @@
+:root {
+    --section-color: blue;
+    --figure-color: orange;
+    --title-color: green;
+    --button-color: red;
+    --link-color: #255EE9;
+}
+
+.header {
+    height: 30px;
+    width: 60px;
+    margin: 5px;
+    background-color: var(--link-color);
+}
+
+.section {
+    background-color: var(--section-color);
+}
+
+.logo {
+    background-color: var(--figure-color);
+}
+
+.title {
+    background-color: var(--title-color);
+}
+
+.button {
+    background-color: var(--button-color);
+}
+
+.link {
+    background-color: var(--link-color);
+}
+
+
+
+/* body {
+    margin: auto;
+    width: 80%;
+} */
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 112);
+}
+
+
+.container-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+}
+
+.start {
+    background-color: rgb(0, 0, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    gap: 10px;
+}
+
+.text {
+    background-color: var(--title-color);
+    text-align: center;
+    height: 40px;
+    width: 45%;
+}
+
+.button1-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    gap: 20px
+    
+}
+
+.button-1 {
+    background-color: var(--button-color);
+    height: 25px;
+    width: 40%;
+}
+
+.button-2 {
+    background-color: var(--button-color);
+    height: 25px;
+    width: 40%;
+}
+
+.chapter1 {
+       background-color: rgb(28, 28, 198);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 300px;
+       gap: 10px;
+}
+
+.direction {
+    width: 30%;
+}
+
+.image {
+    background-color: var(--figure-color);
+    height: 150px;
+    width: 15%;
+}
+
+.article {
+        background-color: green;
+        height: 75px;
+        margin: 15px;
+}
+
+.chapter2 {
+    background-color: rgb(149, 149, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 10px;
+}
+
+.chapter3 {
+    background-color: rgb(0, 115, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 10px;
+}
+
+.last-chapter {
+    background-color: rgb(0, 251, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    gap: 30px;
+}
+
+.button3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+}
+
+footer {
+    background-color: #23272A;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.foot-contain {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.useful-links1{
+    background-color: rgb(0, 217, 255);
+    text-align: center;
+    height: 300px;
+    width: 20%;
+}
+
+.useful-links2{
+    background-color: rgb(0, 217, 255);
+    height: 300px;
+    width: 15%;
+}
+
+.ending {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-foot {
+    background-color: var(--figure-color);
+    height: 30px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.text-foot {
+    background-color: var(--title-color);
+    text-align: center;
+    height: 40px;
+}
+
+.links {
+    background-color: blue;
+    height: 15px;
+    width: 90%;
+    margin-top: 15px;
+}
